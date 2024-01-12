@@ -9,17 +9,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto';
-    scroll-behavior: smooth;
 }
 html, body{
     width: 100%;
     height: 100%;
     overflow-x: hidden;
 }
-#background{
+/* #background{
     width: 100%;
     height: 100%;
-}
+} */
 
 /* ======================== header ============================= */
 header{
@@ -85,10 +84,11 @@ nav #links a:hover{
 #hero{
     display: flex;
     justify-content: center;
-
     padding: 1% 2%;
     margin: auto;
     height: fit-content;
+    
+
     /* height: calc(100vh - 83px); */
 }
 #hero .col1{
